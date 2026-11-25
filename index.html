@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JWASE.ir</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="card">
+          <div class="recipient-info-section">
+            <h2 class="card-title">
+              اطلاعات کاربری <span class="card__title-highlight">شما</span>
+            </h2>
+            <h3 class="recipient-info-title">اطلاعات تحویل گیرنده</h3>
+            <form action="" class="recipient-info">
+              <div class="name-info">
+                <label for="name">نام و نام خانوادگی</label>
+                <input type="text" id="name" placeholder="رضا جنیدی" />
+              </div>
+              <div class="phone-number">
+                <label for="number">شماره تماس گیرنده</label>
+                <input type="text" id="number" placeholder="09123456789" />
+              </div>
+            </form>
+          </div>
+          <div class="address-section">
+            <h2 class="delivery-address">آدرس تحویل</h2>
+            <form action="" class="address-info">
+              <div class="province">
+                <lable for="province">استان</lable>
+                <select name="province" id="province">
+                  <option value="tehran">تهران</option>
+                  <option value="fars">فارس</option>
+                  <option value="esfahan">اصفهان</option>
+                  <option value="gilan">گیلان</option>
+                </select>
+              </div>
+              <div class="cities">
+                <lable for="cities">شهر</lable>
+                <select name="cities" id="cities">
+                  <option value="tehran">تهران</option>
+                  <option value="fars">مشهد</option>
+                  <option value="esfahan">شیراز</option>
+                  <option value="gilan">تبریز</option>
+                </select>
+              </div>
+              <div class="house-number">
+                <lable for="">پلاک </lable>
+                <input type="text" placeholder="10" />
+              </div>
+              <div class="postal-code">
+                <lable for="">کدپستی</lable>
+                <input type="text" placeholder="12345" />
+              </div>
+            </form>
+            <div class="post-address">
+              <label class="post-address-lable" for="post-address"
+                >نشانی پستی</label
+              >
+              <textarea
+                id="post-addres"
+                placeholder=" تهران، خیابان ولیعصر، منطقه ۱۲، بلوار کاوه، کوچه ابوذر، پلاک ۱۵"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="order-options">
+          <h2 class="how-to-send">
+            <span class="order-options-highlight">انتخاب</span> نحوه ارسال
+          </h2>
+          <div class="badge">3 محصول در سبد خرید</div>
+        </div>
+        <div class="select-type">
+          <div class="select-control">
+            <input id="option1" type="radio" name="select" />
+            <div class="option-text">
+              <label for="option1">تیپاکس با بیمه (1 تا 3 روز کاری)</label>
+              <span class=""
+                >45,000
+                <span class="price-currency">تومان </span>
+              </span>
+            </div>
+          </div>
+          <div class="select-control">
+            <input id="option2" type="radio" name="select" />
+            <div class="option-text">
+              <label for="option2">پست پیشتاز (2 تا 5روز کاری)</label>
+              <span class=""
+                >80,000
+                <span class="price-currency">تومان</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <footer>
+        <div class="shopping-card">
+          <div class="shopping-title">
+            <h2 class="shopping-card-title">
+              اطلاعات <span class="card__title-highlight"> خرید</span>
+            </h2>
+          </div>
+          <div class="image1">
+            <img
+              src="/assest/images/475e27a9dd671663eb2133230036d0356212741d (1).png"
+              alt="perfume"
+            />
+
+            <div class="card-item__info">
+              <div class="card-item__header">
+                <h3 class="card-item__title">
+                  Hugo Just Different<br />
+                  هوگو بوس جاست دیفرنت
+                </h3>
+                <div class="card-item__ml">
+                  ۱۰۰
+                  <span class="card-item__highlight"> میل</span>
+                </div>
+              </div>
+
+              <div class="card-item__actions">
+                <div class="card-item__price">
+                  <span>1,550,000</span>
+                  <span>تومان</span>
+                </div>
+
+                <div class="card-item__quantity">
+                  <button type="button">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <use xlink:href="#stroke0_18894_829" stroke="#1A1814" />
+                      <use
+                        xlink:href="#stroke0_18894_829"
+                        stroke="black"
+                        stroke-opacity="0.2"
+                      />
+                      <defs>
+                        <path
+                          id="stroke0_18894_829"
+                          d="M4 8H8M8 8H12M8 8V12M8 8V4"
+                          stroke-width="1.2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </defs>
+                    </svg>
+                  </button>
+                  <span>۱</span>
+                  <button class="card-item__delete" type="button">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 1.25C8.62437 1.25 7.38967 2.15103 6.99186 3.47704L6.97463 3.53449C5.65627 3.68154 4.346 3.925 3.05445 4.26488L1.92427 4.5623C1.59046 4.65014 1.39106 4.99197 1.47891 5.32578C1.56675 5.65959 1.90857 5.85899 2.24239 5.77114L3.37257 5.47373C7.7169 4.33048 12.2831 4.33048 16.6274 5.47373L17.7576 5.77114C18.0914 5.85899 18.4332 5.65959 18.5211 5.32578C18.6089 4.99197 18.4095 4.65014 18.0757 4.5623L16.9455 4.26488C15.654 3.925 14.3437 3.68154 13.0254 3.53449L13.0081 3.47704C12.6103 2.15103 11.3756 1.25 10 1.25ZM11.624 3.41465C11.2889 2.85903 10.6742 2.5 10 2.5C9.32581 2.5 8.71108 2.85903 8.376 3.41465C9.4577 3.35017 10.5423 3.35017 11.624 3.41465Z"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        fill="#CC312D"
+                      />
+                      <path
+                        d="M3.25562 6.21335C3.59812 6.17043 3.91056 6.41328 3.95348 6.75578L5.06804 15.65C5.18559 16.588 5.9831 17.2918 6.92849 17.2918H13.0715C14.0169 17.2918 14.8144 16.588 14.932 15.65L16.0465 6.75578C16.0894 6.41328 16.4019 6.17043 16.7444 6.21335C17.0869 6.25627 17.3297 6.56871 17.2868 6.91121L16.1723 15.8054C15.9763 17.3688 14.6471 18.5418 13.0715 18.5418H6.92849C5.35284 18.5418 4.02366 17.3688 3.82774 15.8054L2.71318 6.91121C2.67026 6.56871 2.91312 6.25627 3.25562 6.21335Z"
+                        fill="#CC312D"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image2">
+            <img
+              src="/assest/images/4e1b2b89e1389cadef3f9cefda802e21f0d91497.png"
+              alt="perfume"
+            />
+
+            <div class="card-item__info">
+              <div class="card-item__header">
+                <h3 class="card-item__title">
+                  Hugo Just Different<br />
+                  هوگو بوس جاست دیفرنت
+                </h3>
+                <div class="card-item__ml">
+                  ۱۰۰
+                  <span class="card-item__highlight"> میل</span>
+                </div>
+              </div>
+
+              <div class="card-item__actions">
+                <div class="card-item__price">
+                  <span>1,550,000</span>
+                  <span>تومان</span>
+                </div>
+
+                <div class="card-item__quantity">
+                  <button type="button">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <use xlink:href="#stroke0_18894_829" stroke="#1A1814" />
+                      <use
+                        xlink:href="#stroke0_18894_829"
+                        stroke="black"
+                        stroke-opacity="0.2"
+                      />
+                      <defs>
+                        <path
+                          id="stroke0_18894_829"
+                          d="M4 8H8M8 8H12M8 8V12M8 8V4"
+                          stroke-width="1.2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </defs>
+                    </svg>
+                  </button>
+                  <span>۱</span>
+                  <button class="card-item__delete" type="button">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 1.25C8.62437 1.25 7.38967 2.15103 6.99186 3.47704L6.97463 3.53449C5.65627 3.68154 4.346 3.925 3.05445 4.26488L1.92427 4.5623C1.59046 4.65014 1.39106 4.99197 1.47891 5.32578C1.56675 5.65959 1.90857 5.85899 2.24239 5.77114L3.37257 5.47373C7.7169 4.33048 12.2831 4.33048 16.6274 5.47373L17.7576 5.77114C18.0914 5.85899 18.4332 5.65959 18.5211 5.32578C18.6089 4.99197 18.4095 4.65014 18.0757 4.5623L16.9455 4.26488C15.654 3.925 14.3437 3.68154 13.0254 3.53449L13.0081 3.47704C12.6103 2.15103 11.3756 1.25 10 1.25ZM11.624 3.41465C11.2889 2.85903 10.6742 2.5 10 2.5C9.32581 2.5 8.71108 2.85903 8.376 3.41465C9.4577 3.35017 10.5423 3.35017 11.624 3.41465Z"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        fill="#CC312D"
+                      />
+                      <path
+                        d="M3.25562 6.21335C3.59812 6.17043 3.91056 6.41328 3.95348 6.75578L5.06804 15.65C5.18559 16.588 5.9831 17.2918 6.92849 17.2918H13.0715C14.0169 17.2918 14.8144 16.588 14.932 15.65L16.0465 6.75578C16.0894 6.41328 16.4019 6.17043 16.7444 6.21335C17.0869 6.25627 17.3297 6.56871 17.2868 6.91121L16.1723 15.8054C15.9763 17.3688 14.6471 18.5418 13.0715 18.5418H6.92849C5.35284 18.5418 4.02366 17.3688 3.82774 15.8054L2.71318 6.91121C2.67026 6.56871 2.91312 6.25627 3.25562 6.21335Z"
+                        fill="#CC312D"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image3">
+            <img
+              src="/assest/images/87cc61b3c899bf01130d8b31fc1d83376aff5b93.png"
+              alt="perfume"
+            />
+
+            <div class="card-item__info">
+              <div class="card-item__header">
+                <h3 class="card-item__title">
+                  Hugo Just Different<br />
+                  هوگو بوس جاست دیفرنت
+                </h3>
+                <div class="card-item__ml">
+                  ۱۰۰
+                  <span class="card-item__highlight"> میل</span>
+                </div>
+              </div>
+
+              <div class="card-item__actions">
+                <div class="card-item__price">
+                  <span>1,550,000</span>
+                  <span>تومان</span>
+                </div>
+
+                <div class="card-item__quantity">
+                  <button type="button">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <use xlink:href="#stroke0_18894_829" stroke="#1A1814" />
+                      <use
+                        xlink:href="#stroke0_18894_829"
+                        stroke="black"
+                        stroke-opacity="0.2"
+                      />
+                      <defs>
+                        <path
+                          id="stroke0_18894_829"
+                          d="M4 8H8M8 8H12M8 8V12M8 8V4"
+                          stroke-width="1.2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </defs>
+                    </svg>
+                  </button>
+                  <span>۱</span>
+                  <button class="card-item__delete" type="button">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 1.25C8.62437 1.25 7.38967 2.15103 6.99186 3.47704L6.97463 3.53449C5.65627 3.68154 4.346 3.925 3.05445 4.26488L1.92427 4.5623C1.59046 4.65014 1.39106 4.99197 1.47891 5.32578C1.56675 5.65959 1.90857 5.85899 2.24239 5.77114L3.37257 5.47373C7.7169 4.33048 12.2831 4.33048 16.6274 5.47373L17.7576 5.77114C18.0914 5.85899 18.4332 5.65959 18.5211 5.32578C18.6089 4.99197 18.4095 4.65014 18.0757 4.5623L16.9455 4.26488C15.654 3.925 14.3437 3.68154 13.0254 3.53449L13.0081 3.47704C12.6103 2.15103 11.3756 1.25 10 1.25ZM11.624 3.41465C11.2889 2.85903 10.6742 2.5 10 2.5C9.32581 2.5 8.71108 2.85903 8.376 3.41465C9.4577 3.35017 10.5423 3.35017 11.624 3.41465Z"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        fill="#CC312D"
+                      />
+                      <path
+                        d="M3.25562 6.21335C3.59812 6.17043 3.91056 6.41328 3.95348 6.75578L5.06804 15.65C5.18559 16.588 5.9831 17.2918 6.92849 17.2918H13.0715C14.0169 17.2918 14.8144 16.588 14.932 15.65L16.0465 6.75578C16.0894 6.41328 16.4019 6.17043 16.7444 6.21335C17.0869 6.25627 17.3297 6.56871 17.2868 6.91121L16.1723 15.8054C15.9763 17.3688 14.6471 18.5418 13.0715 18.5418H6.92849C5.35284 18.5418 4.02366 17.3688 3.82774 15.8054L2.71318 6.91121C2.67026 6.56871 2.91312 6.25627 3.25562 6.21335Z"
+                        fill="#CC312D"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total-section">
+            <div class="shop-price">
+              <div class="shop">
+                <div>خرید شما:</div>
+                <div class="price-num">
+                  1,450,000
+                  <span class="highlight-price">تومان</span>
+                </div>
+              </div>
+              <div class="delivery-price">
+                <div>هزینه ارسال:</div>
+                <div class="price-num">
+                  0
+                  <span class="highlight-price">تومان</span>
+                </div>
+              </div>
+              <div class="total-price">
+                <div>مبلغ قابل پرداخت:</div>
+                <div class="total-price-num">
+                  8,450,000
+                  <span class="highlight-price">تومان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="safe-payment">
+            <span class="icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="48"
+                  height="48"
+                  rx="10.2857"
+                  fill="#EBB811"
+                  fill-opacity="0.25"
+                />
+                <path
+                  d="M22.7725 12.68C23.0453 12.0052 23.7057 11.5638 24.4343 11.5638H35.9269C36.9103 11.5566 37.7107 12.3498 37.7143 13.3332C37.7143 13.5629 37.6713 13.7891 37.5887 14.0008L28.788 35.8446C28.5152 36.523 27.8548 36.9645 27.1262 36.9609H15.6336C14.6502 36.9645 13.8498 36.1748 13.8462 35.1914C13.8462 34.9617 13.8893 34.7356 13.9718 34.5238L22.7725 12.68Z"
+                  fill="url(#paint0_linear_18894_893)"
+                />
+                <path
+                  d="M17.9056 26.8034C22.1157 26.8034 25.5254 23.3901 25.5254 19.1836C25.5254 14.977 22.1157 11.5637 17.9056 11.5637C13.6955 11.5637 10.2857 14.977 10.2857 19.1836C10.2857 23.3937 13.6955 26.8034 17.9056 26.8034Z"
+                  fill="#0A33FF"
+                />
+                <path
+                  d="M25.5254 19.1835C25.5254 23.3936 22.1049 26.8069 17.8948 26.8033C17.6292 26.8033 17.3636 26.789 17.098 26.7603L22.5787 13.1644C24.4415 14.6073 25.529 16.829 25.5254 19.1835Z"
+                  fill="url(#paint1_linear_18894_893)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_18894_893"
+                    x1="30.5647"
+                    y1="11.5853"
+                    x2="20.9672"
+                    y2="37.0183"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#FFD60A" />
+                    <stop offset="1" stop-color="#F5BE09" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_18894_893"
+                    x1="25.1234"
+                    y1="14.2161"
+                    x2="19.6786"
+                    y2="27.7796"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#051A80" />
+                    <stop offset="1" stop-color="#0A33FF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </span>
+            <span class="content">
+              پرداخت امن با کارت‌های عضو شتاب از طریق
+              <span class="content-bold">درگاه زیبال</span>
+            </span>
+          </div>
+          <div class="payment-section">
+            <button class="payment-button">پرداخت و خرید محصول</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
