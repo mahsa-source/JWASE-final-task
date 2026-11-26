@@ -99,7 +99,7 @@ body {
   width: 100%;
 }
 
-input[type=text]:hover {
+input[type="text"]:hover {
   border: 1px solid var(--primary-color);
 }
 
@@ -282,6 +282,13 @@ img {
   border-radius: 1.2rem;
 }
 
+@media screen and(max-width:576px) {
+  img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
 .card-item__title,
 .card-item__ml {
   font-size: var(--font-size-sm);
@@ -334,11 +341,12 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
+  flex-wrap: wrap;
 }
 
 .card-item__price span:first-child {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--text-color);
 }
 
@@ -369,8 +377,14 @@ button {
   height: 4rem;
   border-radius: 4rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0.7rem;
   font-weight: bold;
+}
+
+button,
+.card-item__quantity span {
+  width: 3.4rem;
+  height: 3.4rem;
 }
 
 .total-section {
